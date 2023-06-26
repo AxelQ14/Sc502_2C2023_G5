@@ -1,9 +1,10 @@
+body{
+    margin: 0;
+    background-color: violet;
+}
 
-#inicio{
-    background-color: violet;
-}
-#titulo{
-    background-color: violet;
-    color: blueviolet;
-    font-size: 25px;
-}
+main {
+    display: block;
+    flex-grow: 1;
+
+  }
