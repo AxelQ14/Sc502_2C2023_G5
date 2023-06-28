@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    background-color: #744897;
+}
+
+main {
+    display: block;
+    flex-grow: 1;
+
+  }
+
+  .productos {
+    display: flex;
+    justify-content: space-between;
+
+  }
+  
+  .producto {
+    width: 500px;
+  }
