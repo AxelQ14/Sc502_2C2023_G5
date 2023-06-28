@@ -1,21 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/form_contact.css">
-    <title>Contact</title>
+    <title>Contacto_MoraviaFloral</title>
 </head>
+<object data="./templates/navbar.html" width="100%" height="100%"></object> 
 <body>
-    <h1>Informacion y Formulario de Contacto</h1>
+    <fieldset id="formFieldset">
+        <legend><h1>Informacion y Formulario de Contacto</h1></legend>
+        <div class="formulario">
+            <h2><label for="txtNombre">Nombre Completo:</label>
+            <input type="text" name="nombre" id="txtNombre" placeholder="Digite su Nombre Completo"></h2>
 
-    <label for="txtNombre">Nombre Completo:</label>
-        <input type="text" name="nombre" id="txtNombre" placeholder="Digite su Nombre Completo">
+            <h2><label for="txtCorreo">Email:</label>
+            <input type="text" name="email" id="txtCorreo" placeholder="Digite su email"></h2>
 
-        <label for="txtCorreo">Email:</label>
-        <input type="text" name="email" id="txtCorreo" placeholder="Digite su email">
-
-        <label for="txtTel">Telefono:</label>
-        <input type="text" name="tel" id="txtTel" placeholder="Digite su telefono">
+            <h2><label for="txtTel">Telefono:</label>
+            <input type="text" name="tel" id="txtTel" placeholder="Digite su telefono"></h2>
+        </div>
+    </fieldset>    
 </body>
+<footer id="footer">
+    <object data="./templates/footer.html" width="100%" height="100%"></object>        
+</footer>
 </html>

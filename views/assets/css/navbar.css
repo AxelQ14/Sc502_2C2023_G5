@@ -1,13 +1,16 @@
 .header {
     display: flex;
-    align-items: center;
+    align-items:center;
+    background-color: #af6aae;
+    border-radius: 20px;
   }
 
   .logo {
-    background-color: violet;
-    color: blueviolet;
-    font-size: 25px;
+  
+    color: rgb(252, 252, 252);
+    font-size: 90%;
     font-family: monospace;
+    margin-right: 20%;
   }
 
   .nav{
@@ -21,8 +24,18 @@
 }
 
 .navbar a {
-    color: aqua;
+    color: rgb(0, 0, 0);
     font-weight: bold;
     font-size: 25px;
     font-family: monospace;
 }
+
+/* 
+Lista de colores "Morados" utilizados en la floristeria
+    #af6aae 
+    #a91b60
+    #8463af
+    #744897
+    #aa5297
+
+*/
