@@ -8,6 +8,21 @@ main {
     flex-grow: 1;
 
   }
+.opciones{
+    text-align: right;
+    margin-right: 10px;
+}
+
+#inicio{
+    border-radius: 10px;
+    color: #744897;
+    background-color: #af6aae;
+    border-color:#744897; 
+}
+#banner{
+    text-align: center;
+    
+}
 
   /* 
 Lista de colores "Morados" utilizados en la floristeria
