@@ -24,6 +24,35 @@ main {
     
 }
 
+
+
+#comidas{
+    display: flex;
+    height: 500px;
+    justify-content:center;
+    align-items: center; 
+    
+
+    
+}
+.hijo{
+    margin-left: 30px;
+    background-color: aliceblue;
+    text-align: center;
+    border-radius: 10px;
+    height: 80%;
+    width: 20%;
+}
+#WS{
+    background-color: #008069;
+    width: 100px;
+    height: 40px;
+    border-color: black;
+    border-radius: 10px;
+}
+#WSa{
+    color: #ffffff;
+}
   /* 
 Lista de colores "Morados" utilizados en la floristeria
     #af6aae 
